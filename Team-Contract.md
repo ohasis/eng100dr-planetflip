@@ -6,6 +6,9 @@
 - Progress will be documented via GitHub version control, and team members must provide clear descriptions when pushing changes.
 
 ## Responsibilities
+### What kind of role will each member of the team play? 
+**Artemis**
+- I plan to work on the level design of the game.
 
 ## Goals & Expectations
 ### What are your overall group goals for this quarter?
@@ -39,6 +42,8 @@
 - If a team member cannot complete their assigned task, they should communicate to the rest of the team as early as possible so that everyone else can work to get the work done.
 
 ## Decision Making
+- Decisions will be conducted during weekly meetings and/or before or after class time.
+- As many team members as possible will be included in decision-making.
 
 ## Conflict Resolution
 ### What process(es) will you follow if a conflict arises?
