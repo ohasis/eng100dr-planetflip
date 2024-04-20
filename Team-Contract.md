@@ -16,8 +16,8 @@
 - I aim to create a functioning mobile game that promotes climate action.
 
 ## Values
-- Having open communication amongst the group
-- Being open to change
+- Maintaing open communication amongst the group
+- Remaining open to change
 - Ensuring everyone knows the overall goals as well as their assigned tasks
 - Making a positive working environment
 
