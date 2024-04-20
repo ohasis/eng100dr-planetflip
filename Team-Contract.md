@@ -19,7 +19,7 @@
 - Maintaing open communication amongst the group
 - Remaining open to change
 - Ensuring everyone knows the overall goals as well as their assigned tasks
-- Making a positive working environment
+- Contributing to a positive working environment
 
 ## Quality
 
@@ -41,5 +41,4 @@
 
 ## Signatures
 Artemis Lopez - *Artemis Lopez*
-
 Swati Menon - *Swati Menon*
