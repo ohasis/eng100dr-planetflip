@@ -32,6 +32,11 @@
 - Let the team know in advance if a team member is unable to make it to a meeting or has trouble meeting a deadline. 
 
 ## Deadlines
+### What will you do if someone misses a deadline?
+- Each team member should approach the issue with understanding and openness. 
+- Team members should assess the reason behind the delay and address any challenges.
+- The expectation is clear and timely communication about the impact of the delay.
+- If a team member cannot complete their assigned task, they should communicate to the rest of the team as early as possible so that everyone else can work to get the work done.
 
 ## Decision Making
 
