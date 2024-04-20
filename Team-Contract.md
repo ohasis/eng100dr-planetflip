@@ -53,5 +53,7 @@
 - If a team member cannot complete their assigned task, they should communicate to the rest of the team as early as possible so that everyone else can work to get the work done.
 
 ## Signatures
-Artemis Lopez - *Artemis Lopez*
-Swati Menon - *Swati Menon*
+| Name | Signature | Date|
+| ---- | ---- | ---- |
+| Artemis Lopez | *Artemis Lopez* | 04/20/24 |
+| Swati Menon | *Swati Menon* | 04/20/24 |
