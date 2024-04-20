@@ -11,6 +11,7 @@
 ### What are your overall group goals for this quarter?
 **Artemis**
 - I aim to create a working prototype of this game for use by others.
+
 **Swati**
 - I aim to create a functioning mobile game that promotes climate action.
 
@@ -40,4 +41,5 @@
 
 ## Signatures
 Artemis Lopez - *Artemis Lopez*
+
 Swati Menon - *Swati Menon*
