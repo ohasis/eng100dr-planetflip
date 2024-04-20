@@ -13,10 +13,10 @@
 - I aim to create a working prototype of this game for use by others.
 
 **Swati**
-- I aim to create a functioning mobile game that promotes climate action.
+- I aim to create a functioning mobile game that promotes a form of climate action.
 
 ## Values
-- Maintaing open communication amongst the group
+- Maintaining open communication amongst the group
 - Remaining open to change
 - Ensuring everyone knows the overall goals as well as their assigned tasks
 - Contributing to a positive working environment
