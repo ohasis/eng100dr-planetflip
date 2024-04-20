@@ -22,6 +22,9 @@
 - Contributing to a positive working environment
 
 ## Quality
+### Who determines what work is acceptable? What will you do if someone produces unacceptable work?
+- The team should decide when work needs to be edited and improved; this will be addressed positively. 
+- Assignments should be written coherently. Sentences should make sense, have a rationale, and demonstrate intentionality.
 
 ## Participation
 - Be open to new ideas and new approaches.
@@ -38,6 +41,11 @@
 - The intention is to create a safe space for all team members to feel comfortable expressing discomfort or difficulties.
 
 ## Consequences
+### What will you do if someone misses a deadline?
+- Each team member should approach the issue with understanding and openness. 
+- Team members should assess the reason behind the delay and address any challenges.
+- The expectation is clear and timely communication about the impact of the delay.
+- If a team member cannot complete their assigned task, they should communicate to the rest of the team as early as possible so that everyone else can work to get the work done.
 
 ## Signatures
 Artemis Lopez - *Artemis Lopez*
