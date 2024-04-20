@@ -5,18 +5,27 @@
 - Team members are expected to be transparent if the workload is too much. Let’s help each other out!
 - Progress will be documented via GitHub version control, and team members must provide clear descriptions when pushing changes.
 
-## Resposibilities
+## Responsibilities
 
 ## Goals & Expectations
 ### What are your overall group goals for this quarter?
 **Artemis**
 - I aim to create a working prototype of this game for use by others.
+**Swati**
+- I aim to create a functioning mobile game that promotes climate action.
 
 ## Values
+- Having open communication amongst the group
+- Being open to change
+- Ensuring everyone knows the overall goals as well as their assigned tasks
+- Making a positive working environment
 
 ## Quality
 
 ## Participation
+- Be open to new ideas and new approaches.
+- Give everyone the opportunity to participate during team meetings.
+- Let the team know in advance if a team member is unable to make it to a meeting or has trouble meeting a deadline. 
 
 ## Deadlines
 
@@ -31,3 +40,4 @@
 
 ## Signatures
 Artemis Lopez - *Artemis Lopez*
+Swati Menon - *Swati Menon*
