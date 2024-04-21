@@ -9,7 +9,10 @@
 ### What kind of role will each member of the team play? 
 **Artemis**
 - I plan to work on the level design of the game.
-
+  
+**Sean**
+- I plan to work on game design/debugging.
+  
 ## Goals & Expectations
 ### What are your overall group goals for this quarter?
 **Artemis**
@@ -18,6 +21,9 @@
 **Swati**
 - I aim to create a functioning mobile game that promotes a form of climate action.
 
+**Sean**
+- I aim to create a game that can be used to help promote better habits for climate change.
+  
 ## Values
 - Maintaining open communication amongst the group
 - Remaining open to change
