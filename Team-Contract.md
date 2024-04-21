@@ -12,6 +12,9 @@
   
 **Sean**
 - I plan to work on game design/debugging.
+
+**Satvik**
+- I plan to work on game design/debugging.
   
 ## Goals & Expectations
 ### What are your overall group goals for this quarter?
@@ -23,6 +26,9 @@
 
 **Sean**
 - I aim to create a game that can be used to help promote better habits for climate change.
+
+**Satvik**
+- I hope to work closely with an organization to create a completed game.
   
 ## Values
 - Maintaining open communication amongst the group
