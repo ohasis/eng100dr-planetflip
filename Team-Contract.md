@@ -62,11 +62,11 @@
 **Umar**
 - I hope to use Construct3 to create a mobile game that will increase awareness for positive climate actions.
 
-**Andrea** 
-- I hope to utilize game/app design programs and softwares such as Construct3 and Figma in order to create a mobile game that works to raise awareness and encourages change.
-
 **Jerson**
-- I aim to design a game that helps create awareness on climate change
+- I aim to design a game that helps create awareness of climate change.
+
+**Andrea** 
+- I hope to utilize game/app design programs and software such as Construct3 and Figma to create a mobile game that works to raise awareness and encourages change.
 
 ## Values
 - Maintaining open communication among the group
@@ -95,7 +95,7 @@
 ## Decision Making
 - Decisions will be conducted during weekly meetings and/or before or after class time.
 - As many team members as possible will be included in decision-making.
-- Important decisions will be based off the majority rule.
+- Important decisions will be based on the majority rule.
 
 ## Conflict Resolution
 ### What process(es) will you follow if a conflict arises?
@@ -121,5 +121,3 @@
 | Umar Khan | *Umar Khan* | 04/20/24 |
 | Jerson Perez | *Jerson Perez* | 04/20/24 |
 | Andrea Blanco | *Andrea Blanco* | 4/21/24 |
-
-
