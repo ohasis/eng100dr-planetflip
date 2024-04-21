@@ -25,6 +25,9 @@
 **Umar**
 - I plan to work on game design/debugging.
   
+  **Jerson**
+- I plan to work on game design/debugging.
+  
 ## Goals & Expectations
 ### What are your overall group goals for this quarter?
 **Artemis**
@@ -93,4 +96,6 @@
 | Satvik Sriram | *Satvik Sriram* | 04/20/24 |
 | Haikun Zhu | *Haikun Zhu* | 04/20/24 |
 | Umar Khan | *Umar Khan* | 04/20/24 |
+| Jerson Perez | *Jerson Perez* | 04/20/24 |
+
 
