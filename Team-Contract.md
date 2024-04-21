@@ -25,7 +25,7 @@
 **Umar**
 - I plan to work on game design/debugging.
   
-  **Jerson**
+**Jerson**
 - I plan to work on game design/debugging.
   
 ## Goals & Expectations
