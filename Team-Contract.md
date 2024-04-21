@@ -14,7 +14,7 @@
 | Haikun Zhu | @dama1875 | HaikunBarryZhu |
 | Umar Khan | @bruh8410 | UKCSD |
 | Jerson Perez | @ironhide3929 | Ironhide692 |
-| Andrea | @andrea333_ | drea333 |
+| Andrea Blanco | @andrea333_ | drea333 |
 
 ## Responsibilities
 ### What kind of role will each member of the team play? 
@@ -38,7 +38,10 @@
   
 **Jerson**
 - I plan to work on game design/debugging.
-  
+
+**Andrea**
+- I plan to work on the UX/UI design of the game.
+
 ## Goals & Expectations
 ### What are your overall group goals for this quarter?
 **Artemis**
@@ -57,7 +60,10 @@
 - I want to create a game that lets more people know and learn about the SDGs.
 
 **Umar**
-- I hope to use Construct3 to create a mobile game that will increase awareness for positive climate actions. 
+- I hope to use Construct3 to create a mobile game that will increase awareness for positive climate actions.
+
+**Andrea** 
+- I hope to utilize game/app design programs and softwares such as Construct3 and Figma in order to create a mobile game that works to raise awareness and encourages change.
   
 ## Values
 - Maintaining open communication among the group
@@ -67,8 +73,9 @@
 
 ## Quality
 ### Who determines what work is acceptable? What will you do if someone produces unacceptable work?
-- The team should decide when work needs to be edited and improved; this will be addressed positively. 
+- The team should decide when work needs to be edited and improved; this will be addressed positively and constructively. 
 - Assignments should be written coherently. Sentences should make sense, have a rationale, and demonstrate intentionality.
+- Each person in the team should prioritize contributing before the deadline set by the professor.
 
 ## Participation
 - Be open to new ideas and new approaches.
@@ -85,11 +92,13 @@
 ## Decision Making
 - Decisions will be conducted during weekly meetings and/or before or after class time.
 - As many team members as possible will be included in decision-making.
+- Important decisions will be based off the majority rule.
 
 ## Conflict Resolution
 ### What process(es) will you follow if a conflict arises?
 - If there is a conflict, the team should have open communication, active listening, and understanding of all the perspectives to resolve. 
 - The intention is to create a safe space for all team members to feel comfortable expressing discomfort or difficulties.
+- Team members will approach any conflict with an open mind and with kindness.
 
 ## Consequences
 ### What will you do if someone misses a deadline?
@@ -108,5 +117,6 @@
 | Haikun Zhu | *Haikun Zhu* | 04/20/24 |
 | Umar Khan | *Umar Khan* | 04/20/24 |
 | Jerson Perez | *Jerson Perez* | 04/20/24 |
+| Andrea Blanco | *Andrea Blanco* | 4/21/24 |
 
 
