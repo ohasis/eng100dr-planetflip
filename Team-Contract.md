@@ -57,7 +57,10 @@
 - I want to create a game that lets more people know and learn about the SDGs.
 
 **Umar**
-- I hope to use Construct3 to create a mobile game that will increase awareness for positive climate actions. 
+- I hope to use Construct3 to create a mobile game that will increase awareness for positive climate actions.
+
+**Jerson**
+- I aim to design a game that helps create awareness on climate change
   
 ## Values
 - Maintaining open communication among the group
