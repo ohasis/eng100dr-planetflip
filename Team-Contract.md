@@ -9,6 +9,9 @@
 ### What kind of role will each member of the team play? 
 **Artemis**
 - I plan to work on the level design of the game.
+
+**Swati**
+- I plan to work on game design and visual design. 
   
 **Sean**
 - I plan to work on game design/debugging.
