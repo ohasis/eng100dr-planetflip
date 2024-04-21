@@ -21,6 +21,9 @@
 
 **Haikun Zhu**
 - I plan to work on game design/debugging.
+
+**Umar Khan**
+- I plan to work on game design/debugging.
   
 ## Goals & Expectations
 ### What are your overall group goals for this quarter?
@@ -38,6 +41,9 @@
 
 **Haikun**
 - I want to create a game that let more people know and learn about the SDGs.
+
+**Umar Khan**
+- I hope to use Construct3 to create a mobile game that will increase awareness for positive climate actions. 
   
 ## Values
 - Maintaining open communication amongst the group
@@ -86,4 +92,5 @@
 | Sean Ting | *Sean Ting* | 04/20/24 |
 | Satvik Sriram | *Satvik Sriram* | 04/20/24 |
 | Haikun Zhu | *Haikun Zhu* | 04/20/24 |
+| Umar Khan | *Umar Khan* | 04/20/24 |
 
