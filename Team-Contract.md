@@ -64,7 +64,10 @@
 
 **Andrea** 
 - I hope to utilize game/app design programs and softwares such as Construct3 and Figma in order to create a mobile game that works to raise awareness and encourages change.
-  
+
+**Jerson**
+- I aim to design a game that helps create awareness on climate change
+
 ## Values
 - Maintaining open communication among the group
 - Remaining open to change
