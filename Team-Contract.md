@@ -62,3 +62,4 @@
 | ---- | ---- | ---- |
 | Artemis Lopez | *Artemis Lopez* | 04/20/24 |
 | Swati Menon | *Swati Menon* | 04/20/24 |
+| Sean Ting | *Sean Ting* | 04/20/24 |
