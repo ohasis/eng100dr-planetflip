@@ -15,6 +15,9 @@
 
 **Satvik**
 - I plan to work on game design/debugging.
+
+**Haikun Zhu**
+- I plan to work on game design/debugging.
   
 ## Goals & Expectations
 ### What are your overall group goals for this quarter?
@@ -29,6 +32,9 @@
 
 **Satvik**
 - I hope to work closely with an organization to create a completed game.
+
+**Haikun**
+- I want to create a game that let more people know and learn about the SDGs.
   
 ## Values
 - Maintaining open communication amongst the group
@@ -76,4 +82,5 @@
 | Swati Menon | *Swati Menon* | 04/20/24 |
 | Sean Ting | *Sean Ting* | 04/20/24 |
 | Satvik Sriram | *Satvik Sriram* | 04/20/24 |
+| Haikun Zhu | *Haikun Zhu* | 04/20/24 |
 
