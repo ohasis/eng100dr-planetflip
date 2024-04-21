@@ -19,10 +19,10 @@
 **Satvik**
 - I plan to work on game design/debugging.
 
-**Haikun Zhu**
+**Haikun**
 - I plan to work on game design/debugging.
 
-**Umar Khan**
+**Umar**
 - I plan to work on game design/debugging.
   
 ## Goals & Expectations
@@ -40,13 +40,13 @@
 - I hope to work closely with an organization to create a completed game.
 
 **Haikun**
-- I want to create a game that let more people know and learn about the SDGs.
+- I want to create a game that lets more people know and learn about the SDGs.
 
-**Umar Khan**
+**Umar**
 - I hope to use Construct3 to create a mobile game that will increase awareness for positive climate actions. 
   
 ## Values
-- Maintaining open communication amongst the group
+- Maintaining open communication among the group
 - Remaining open to change
 - Ensuring everyone knows the overall goals as well as their assigned tasks
 - Contributing to a positive working environment
@@ -58,7 +58,7 @@
 
 ## Participation
 - Be open to new ideas and new approaches.
-- Give everyone the opportunity to participate during team meetings.
+- Allow everyone to participate in team meetings.
 - Let the team know in advance if a team member is unable to make it to a meeting or has trouble meeting a deadline. 
 
 ## Deadlines
