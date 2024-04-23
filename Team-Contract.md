@@ -6,7 +6,7 @@
 - Progress will be documented via GitHub version control, and team members must provide clear descriptions when pushing changes.
 
 | Team Member | Discord ID | GitHub Username | Email |
-| ---- | ---- | ---- | ---- |
+| ---- | :---- | :---- | :---- |
 | Artemis Lopez | @theohasis| ohasis | ealopez@ucsd.edu |
 | Swati Menon | @swmenon | swmenon05 | swmenon@ucsd.edu |
 | Sean Ting | @s.mebody | sjting8 | sjting@ucsd.edu |
