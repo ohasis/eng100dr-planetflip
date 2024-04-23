@@ -5,16 +5,16 @@
 - Team members are expected to be transparent if the workload is too much. Let’s help each other out!
 - Progress will be documented via GitHub version control, and team members must provide clear descriptions when pushing changes.
 
-| Team Member | Discord ID | GitHub Username |
-| ---- | ---- | ---- |
-| Artemis Lopez | @theohasis| ohasis |
-| Swati Menon | @swmenon | swmenon05 |
-| Sean Ting | @s.mebody | sjting8 |
-| Satvik Sriram | @pants.exe | SatvikS7 |
-| Haikun Zhu | @dama1875 | HaikunBarryZhu |
-| Umar Khan | @bruh8410 | UKCSD |
-| Jerson Perez | @ironhide3929 | Ironhide692 |
-| Andrea Blanco | @andrea333_ | drea333 |
+| Team Member | Discord ID | GitHub Username | Email |
+| ---- | ---- | ---- | ---- |
+| Artemis Lopez | @theohasis| ohasis | ealopez@ucsd.edu |
+| Swati Menon | @swmenon | swmenon05 | swmenon@ucsd.edu |
+| Sean Ting | @s.mebody | sjting8 | sjting@ucsd.edu |
+| Satvik Sriram | @pants.exe | SatvikS7 | s2sriram@ucsd.edu |
+| Haikun Zhu | @dama1875 | HaikunBarryZhu | haz042@ucsd.edu |
+| Umar Khan | @bruh8410 | UKCSD | u1khan@ucsd.edu |
+| Jerson Perez | @ironhide3929 | Ironhide692 | japerez@ucsd.edu |
+| Andrea Blanco | @andrea333_ | drea333 | arblanco@ucsd.edu |
 
 ## Responsibilities
 ### What kind of role will each member of the team play? 
