@@ -42,7 +42,7 @@
 | Swati Menon | @swmenon | swmenon05 | swmenon@ucsd.edu | | |
 | Sean Ting | @s.mebody | sjting8 | sjting@ucsd.edu | | |
 | Satvik Sriram | @pants.exe | SatvikS7 | s2sriram@ucsd.edu | | |
-| Haikun Zhu | @dama1875 | HaikunBarryZhu | haz042@ucsd.edu | | |
+| Haikun Zhu | @dama1875 | HaikunBarryZhu | haz042@ucsd.edu | haz042@ucsd.edu | |
 | Umar Khan | @bruh8410 | UKCSD | u1khan@ucsd.edu | | |
 | Jerson Perez | @ironhide3929 | Ironhide692 | japerez@ucsd.edu | | |
 | Andrea Blanco | @andrea333_ | drea333 | arblanco@ucsd.edu | | |
