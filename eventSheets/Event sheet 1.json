@@ -36,6 +36,10 @@
 			"sid": 479047488120131
 		},
 		{
+			"eventType": "comment",
+			"text": "transition between layouts (still being tested)"
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
