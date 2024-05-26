@@ -1,0 +1,12 @@
+{
+	"name": "tap",
+	"plugin-id": "Touch",
+	"sid": 210718599164326,
+	"singleglobal-inst": {
+		"type": "tap",
+		"properties": {
+			"use-mouse-input": true
+		},
+		"uid": 6
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"name": "TiledBackground2",
+	"plugin-id": "TiledBg",
+	"sid": 259475008787807,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "DragDrop",
+			"sid": 965373463332084
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 250,
+		"height": 250,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "lossless",
+		"exportQuality": 0.8,
+		"imageSpriteId": 2352543,
+		"useCollisionPoly": true,
+		"tag": ""
+	}
+}

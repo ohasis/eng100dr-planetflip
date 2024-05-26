@@ -1,0 +1,19 @@
+{
+	"name": "task_svgs",
+	"plugin-id": "SVGPicture",
+	"sid": 814079160624004,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 491930391674009
+		}
+	],
+	"effectTypes": [],
+	"members": [
+		"reward_icon",
+		"star_icon",
+		"incomplete_icon"
+	]
+}

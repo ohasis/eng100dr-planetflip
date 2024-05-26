@@ -1,0 +1,15 @@
+{
+	"name": "health_icon",
+	"plugin-id": "SVGPicture",
+	"sid": 661131657947609,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 941949997914208
+		}
+	],
+	"effectTypes": []
+}

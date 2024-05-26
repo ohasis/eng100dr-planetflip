@@ -1,0 +1,91 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "tap",
+					"sid": 903364686480374,
+					"parameters": {
+						"object": "start_button_obj"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "welcome_bg_slide",
+					"sid": 681318968292862,
+					"parameters": {
+						"instance-variable": "slide",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-layer-interactive",
+					"objectClass": "System",
+					"sid": 828633720665909,
+					"parameters": {
+						"layer": "0",
+						"interactive": false
+					}
+				}
+			],
+			"sid": 479047488120131
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "welcome_bg_slide",
+					"sid": 108271975678932,
+					"parameters": {
+						"instance-variable": "slide",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-x",
+					"objectClass": "welcome_bg_slide",
+					"sid": 166343660400280,
+					"parameters": {
+						"x": "Self.X - 10"
+					}
+				}
+			],
+			"sid": 583159312264554
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "welcome_bg_slide",
+					"sid": 170825638242314,
+					"parameters": {
+						"comparison": 3,
+						"x-co-ordinate": "500"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 903678186822315,
+					"parameters": {
+						"layout": "\"Welcome 2\""
+					}
+				}
+			],
+			"sid": 731045770863210
+		}
+	],
+	"sid": 804085021198036
+}

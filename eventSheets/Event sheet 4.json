@@ -1,0 +1,502 @@
+{
+	"name": "Event sheet 4",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "numTasks",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 174117757074894
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 215855304315942
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "pb_name_text",
+					"sid": 125393797447470,
+					"parameters": {
+						"text": "pb_name"
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "menu_home_area",
+					"sid": 326466089385201,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "menu_bar",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "menu_profile_area",
+					"sid": 719675593359340,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "menu_bar",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "menu_past_tasks_area",
+					"sid": 234908483237328,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "menu_bar",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "bear_full",
+					"sid": 205767787617901,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "TiledBackground2",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "pb_name_text",
+					"sid": 553270986940319,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "TiledBackground2",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "health_icon",
+					"sid": 829591697564709,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "TiledBackground2",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "menu_icon",
+					"sid": 886562826387626,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "TiledBackground2",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "TiledBackground",
+					"sid": 664452267183002,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "TiledBackground2",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "request-project-file",
+					"objectClass": "AJAX",
+					"sid": 954208538106797,
+					"parameters": {
+						"tag": "\"t\"",
+						"file": "taskList.json"
+					}
+				},
+				{
+					"id": "wait-for-previous-actions",
+					"objectClass": "System",
+					"sid": 709556956789460
+				},
+				{
+					"id": "load",
+					"objectClass": "task_arr",
+					"sid": 867348965923936,
+					"parameters": {
+						"json": "\"AJAX.LastData\""
+					}
+				}
+			],
+			"sid": 969376160630750
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "tap",
+					"sid": 133773812730384,
+					"parameters": {
+						"object": "menu_icon"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "menu_icon",
+					"sid": 930470424782507,
+					"parameters": {
+						"instance-variable": "Open",
+						"value": "Self.Open = 0 ? 1: 0"
+					}
+				},
+				{
+					"id": "set-layer-interactive",
+					"objectClass": "System",
+					"sid": 724409089177195,
+					"parameters": {
+						"layer": "3",
+						"interactive": false
+					}
+				},
+				{
+					"id": "set-layer-interactive",
+					"objectClass": "System",
+					"sid": 952344301405310,
+					"parameters": {
+						"layer": "1",
+						"interactive": false
+					}
+				}
+			],
+			"sid": 951480712914017
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "tap",
+					"sid": 247915385167092,
+					"parameters": {
+						"object": "menu_home_area"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-layer-interactive",
+					"objectClass": "System",
+					"sid": 354755045337664,
+					"parameters": {
+						"layer": "1",
+						"interactive": true
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "menu_icon",
+					"sid": 200895487553784,
+					"parameters": {
+						"instance-variable": "Open",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-layer-interactive",
+					"objectClass": "System",
+					"sid": 822456250240124,
+					"parameters": {
+						"layer": "3",
+						"interactive": true
+					}
+				}
+			],
+			"sid": 735275388552714
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "menu_icon",
+					"sid": 405799936502077,
+					"parameters": {
+						"instance-variable": "Open",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 743024350308913,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-x",
+							"objectClass": "menu_bar",
+							"sid": 108897397147580,
+							"parameters": {
+								"comparison": 4,
+								"x-co-ordinate": "-874"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-x",
+							"objectClass": "menu_bar",
+							"sid": 255312497162424,
+							"parameters": {
+								"x": "Self.X - 14"
+							}
+						}
+					],
+					"sid": 889088499852371
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 540628388013324
+				}
+			],
+			"actions": [],
+			"sid": 543183850740516,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-x",
+							"objectClass": "menu_bar",
+							"sid": 986287996001316,
+							"parameters": {
+								"comparison": 2,
+								"x-co-ordinate": "-5"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-x",
+							"objectClass": "menu_bar",
+							"sid": 447839847067549,
+							"parameters": {
+								"x": "Self.X+14"
+							}
+						}
+					],
+					"sid": 894256888054731
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 686666393329107
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-y",
+					"objectClass": "TiledBackground2",
+					"sid": 899383307304070,
+					"parameters": {
+						"comparison": 5,
+						"y-co-ordinate": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-y",
+					"objectClass": "TiledBackground2",
+					"sid": 499268420538722,
+					"parameters": {
+						"y": "0"
+					}
+				}
+			],
+			"sid": 335170527726929
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-y",
+					"objectClass": "TiledBackground2",
+					"sid": 221673741900185,
+					"parameters": {
+						"comparison": 3,
+						"y-co-ordinate": "-1920"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-y",
+					"objectClass": "TiledBackground2",
+					"sid": 743053255948367,
+					"parameters": {
+						"y": "-1920"
+					}
+				}
+			],
+			"sid": 328789122256471
+		},
+		{
+			"functionName": "createTask",
+			"functionDescription": "creates the task object without any information",
+			"functionCategory": "",
+			"functionReturnType": "none",
+			"functionCopyPicked": false,
+			"functionIsAsync": false,
+			"functionParameters": [],
+			"eventType": "function-block",
+			"conditions": [],
+			"actions": [
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 671301273588448,
+					"parameters": {
+						"object-to-create": "task_container",
+						"layer": "3",
+						"x": "560",
+						"y": "2070",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 810219577108178,
+					"parameters": {
+						"object-to-create": "task_texts",
+						"layer": "3",
+						"x": "280",
+						"y": "1890",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 155420434789739,
+					"parameters": {
+						"object-to-create": "task_svgs",
+						"layer": "3",
+						"x": "360",
+						"y": "2070",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "task_svgs",
+					"sid": 895696946120012,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "task_container",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "task_texts",
+					"sid": 934901293397451,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "task_container",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "task_container",
+					"sid": 226545760372885,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "TiledBackground2",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 706238241639500
+		}
+	],
+	"sid": 404955803107330
+}

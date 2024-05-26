@@ -1,0 +1,23 @@
+{
+	"name": "menu_icon",
+	"plugin-id": "SVGPicture",
+	"sid": 474836883928926,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Open",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 741968055176961
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 852180418956689
+		}
+	],
+	"effectTypes": []
+}

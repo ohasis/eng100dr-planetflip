@@ -1,0 +1,10 @@
+{
+	"name": "task_list_csv",
+	"plugin-id": "CSV",
+	"sid": 335979598556096,
+	"singleglobal-inst": {
+		"type": "task_list_csv",
+		"properties": {},
+		"uid": 32
+	}
+}

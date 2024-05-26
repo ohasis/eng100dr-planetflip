@@ -1,0 +1,424 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 38802,
+	"name": "ENG_100DR_Project",
+	"runtime": "c3",
+	"useWorker": "auto",
+	"bundleAddons": false,
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "AJAX",
+			"name": "AJAX",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Arr",
+			"name": "Array",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Button",
+			"name": "Button",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "CSV",
+			"name": "CSV",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Dictionary",
+			"name": "Dictionary",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "SVGPicture",
+			"name": "SVG Picture",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TextBox",
+			"name": "Text input",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Touch",
+			"name": "Touch",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "progressbar",
+			"name": "Progress bar",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "DragnDrop",
+			"name": "Drag & Drop",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Pin",
+			"author": "Scirra",
+			"bundled": false
+		}
+	],
+	"uniqueId": "ofsoem2ue8d",
+	"objectTypes": {
+		"items": [
+			"bear_head",
+			"welcome_bg",
+			"pf_text",
+			"title_text",
+			"welcome_text",
+			"Button",
+			"start_button_obj",
+			"tap",
+			"begin_button_obj",
+			"name_your_pb_text",
+			"bear_full",
+			"pb_name_input",
+			"meet_button_obj",
+			"pb_name_text",
+			"TiledBackground",
+			"TiledBackground2",
+			"menu_icon",
+			"health_icon",
+			"menu_bar",
+			"menu_home_area",
+			"welcome_bg_slide",
+			"menu_profile_area",
+			"menu_past_tasks_area",
+			"ProgressBar",
+			"Dictionary",
+			"task_arr",
+			"task_list_csv",
+			"AJAX",
+			"task_container",
+			"task_text",
+			"incomplete_icon",
+			"star_icon",
+			"reward_icon",
+			"reward_text"
+		],
+		"subfolders": []
+	},
+	"autosaveData": null,
+	"containers": [],
+	"families": {
+		"items": [
+			"task_svgs",
+			"task_texts"
+		],
+		"subfolders": []
+	},
+	"layouts": {
+		"items": [
+			"Welcome 1",
+			"Welcome 2",
+			"Welcome 3",
+			"Home Screen 1"
+		],
+		"subfolders": []
+	},
+	"eventSheets": {
+		"items": [
+			"Event sheet 1",
+			"Event sheet 2",
+			"Event sheet 3",
+			"Event sheet 4"
+		],
+		"subfolders": []
+	},
+	"rootFileFolders": {
+		"script": {
+			"items": [
+				{
+					"name": "main.js",
+					"type": "application/javascript",
+					"sid": 377749208950618,
+					"script-info": {
+						"purpose": "main"
+					}
+				},
+				{
+					"name": "importsForEvents.js",
+					"type": "application/javascript",
+					"sid": 762029371591331,
+					"script-info": {
+						"purpose": "imports-for-events"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"sound": {
+			"items": [],
+			"subfolders": []
+		},
+		"music": {
+			"items": [],
+			"subfolders": []
+		},
+		"video": {
+			"items": [],
+			"subfolders": []
+		},
+		"font": {
+			"items": [],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "icon-16.png",
+					"type": "image/png",
+					"sid": 333956558146151,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-32.png",
+					"type": "image/png",
+					"sid": 693570220611780,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-64.png",
+					"type": "image/png",
+					"sid": 555102089399275,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-128.png",
+					"type": "image/png",
+					"sid": 645443359091363,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-256.png",
+					"type": "image/png",
+					"sid": 774384818331394,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-512.png",
+					"type": "image/png",
+					"sid": 684856916842013,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "loading-logo.png",
+					"type": "image/png",
+					"sid": 806704976469999,
+					"icon-info": {
+						"purpose": "loading-logo"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [
+				{
+					"name": "Profile.svg",
+					"type": "image/svg+xml",
+					"sid": 190157677811931,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "hunger bar.svg",
+					"type": "image/svg+xml",
+					"sid": 808887449591410,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "menu_icon.svg",
+					"type": "image/svg+xml",
+					"sid": 723574103726631,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "menu_bar.svg",
+					"type": "image/svg+xml",
+					"sid": 468085233296692,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "taskList.json",
+					"type": "application/json",
+					"sid": 999208180942090,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "complete.svg",
+					"type": "image/svg+xml",
+					"sid": 804496684789431,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "star_difficulty.svg",
+					"type": "image/svg+xml",
+					"sid": 883429676938822,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "incomplete.svg",
+					"type": "image/svg+xml",
+					"sid": 415620463301571,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "reward_icon.svg",
+					"type": "image/svg+xml",
+					"sid": 542209525035502,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": []
+		}
+	},
+	"timelines": {
+		"items": [
+			"Timeline 1"
+		],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": []
+			}
+		]
+	},
+	"flowcharts": {
+		"items": [],
+		"subfolders": []
+	},
+	"properties": {
+		"description": "Play and take care of your polar friend while helping to save the planet.",
+		"version": "1.0.0.0",
+		"author": "PlanetFlip",
+		"authorEmail": "satviksriram8@gmail.com",
+		"authorWebsite": "https://cookieclicker.fandom.com/wiki/Garden",
+		"appId": "com.plantflip.polarpet",
+		"pixelRounding": false,
+		"zAxisScale": "normalized",
+		"fov": 0.7853981633974483,
+		"useLoaderLayout": false,
+		"fullscreenMode": "letterbox-scale",
+		"fullscreenQuality": "high",
+		"viewportFit": "auto",
+		"backgroundColor": [
+			0,
+			0,
+			0,
+			0
+		],
+		"splashColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useThemeColor": true,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"orientations": "portrait",
+		"webgpu": "auto",
+		"gpuPreference": "high-performance",
+		"scriptsType": "module",
+		"framerateMode": "vsync",
+		"compositingMode": "standard",
+		"sampling": "trilinear",
+		"downscaling": "medium",
+		"renderingMode": "auto",
+		"anisotropicFiltering": "auto",
+		"zNear": 1,
+		"zFar": 10000,
+		"maxSpriteSheetSize": 2048,
+		"loaderStyle": "splash",
+		"preloadSounds": true,
+		"cordovaiOSScheme": "app",
+		"cordovaAndroidScheme": "https",
+		"autoReloadScriptsOnPreview": false,
+		"exportFileStructure": "folders",
+		"uidAllocationMode": "increment"
+	},
+	"viewportWidth": 1080,
+	"viewportHeight": 1920,
+	"firstLayout": null
+}

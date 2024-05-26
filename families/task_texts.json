@@ -1,0 +1,18 @@
+{
+	"name": "task_texts",
+	"plugin-id": "Text",
+	"sid": 557054862011065,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 236939583047409
+		}
+	],
+	"effectTypes": [],
+	"members": [
+		"task_text",
+		"reward_text"
+	]
+}

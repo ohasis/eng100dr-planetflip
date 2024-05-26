@@ -1,0 +1,79 @@
+{
+	"name": "Event sheet 3",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "pb_name",
+			"type": "string",
+			"initialValue": "\"\"",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 285022979608736
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "tap",
+					"sid": 389561384886611,
+					"parameters": {
+						"object": "meet_button_obj"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 182925589492136,
+					"parameters": {
+						"variable": "pb_name",
+						"value": "pb_name_input.Text"
+					}
+				},
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 853950551692827,
+					"parameters": {
+						"layout": "\"Home Screen 1\""
+					}
+				}
+			],
+			"sid": 430875611464459
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 711873019916979
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "pb_name_text",
+					"sid": 891459489691525,
+					"parameters": {
+						"text": "pb_name"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 566611305609350,
+					"parameters": {
+						"variable": "pb_name",
+						"value": "pb_name_input.Text"
+					}
+				}
+			],
+			"sid": 733925243687225
+		}
+	],
+	"sid": 953506641804835
+}

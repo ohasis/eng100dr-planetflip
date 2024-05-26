@@ -1,0 +1,153 @@
+{
+	"name": "Event sheet 2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "tap",
+					"sid": 515004797659321,
+					"parameters": {
+						"object": "begin_button_obj"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 690985255566888,
+					"parameters": {
+						"layout": "\"Welcome 3\""
+					}
+				}
+			],
+			"sid": 740651920548656
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-opacity",
+					"objectClass": "bear_head",
+					"sid": 693475388648065,
+					"parameters": {
+						"comparison": 4,
+						"opacity": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"callFunction": "element_fade_in",
+					"sid": 631719695091377
+				}
+			],
+			"sid": 380290371196749,
+			"disabled": true
+		},
+		{
+			"functionName": "element_fade_in",
+			"functionDescription": "Fades in elements",
+			"functionCategory": "",
+			"functionReturnType": "none",
+			"functionCopyPicked": false,
+			"functionIsAsync": false,
+			"functionParameters": [],
+			"eventType": "function-block",
+			"conditions": [],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "bear_head",
+					"sid": 258891851181394,
+					"parameters": {
+						"opacity": "Self.Opacity - 10"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "title_text",
+					"sid": 899545301632067,
+					"parameters": {
+						"opacity": "Self.Opacity - 10"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "begin_button_obj",
+					"sid": 958147554755197,
+					"parameters": {
+						"opacity": "Self.Opacity - 10"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "welcome_text",
+					"sid": 968807981623009,
+					"parameters": {
+						"opacity": "Self.Opacity - 10"
+					}
+				}
+			],
+			"sid": 552176523543610
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 816043299757465
+				}
+			],
+			"actions": [
+				{
+					"id": "set-layer-visible",
+					"objectClass": "System",
+					"sid": 236269748685686,
+					"parameters": {
+						"layer": "1",
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "bear_head",
+					"sid": 579438743662385,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "welcome_text",
+					"sid": 913221435993145,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "title_text",
+					"sid": 751374230506895,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "begin_button_obj",
+					"sid": 751005097132246,
+					"parameters": {
+						"opacity": "100"
+					}
+				}
+			],
+			"sid": 737276489991664,
+			"disabled": true
+		}
+	],
+	"sid": 987698595335351
+}
