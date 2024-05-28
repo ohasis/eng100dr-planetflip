@@ -36,10 +36,10 @@
 						}
 					},
 					"world": {
-						"x": 2,
-						"y": -4,
+						"x": 0,
+						"y": 0,
 						"width": 1078,
-						"height": 3850,
+						"height": 3840,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -514,7 +514,7 @@
 					},
 					"world": {
 						"x": 540,
-						"y": 2300,
+						"y": 2900,
 						"width": 1000,
 						"height": 470,
 						"originX": 0.5,
@@ -559,13 +559,13 @@
 					"behaviors": {
 						"Pin": {
 							"properties": {
-								"destroy": false
+								"destroy": true
 							}
 						}
 					},
 					"world": {
-						"x": 89,
-						"y": 2100,
+						"x": 90,
+						"y": 2700,
 						"width": 795,
 						"height": 234,
 						"originX": 0,
@@ -592,13 +592,13 @@
 					"behaviors": {
 						"Pin": {
 							"properties": {
-								"destroy": false
+								"destroy": true
 							}
 						}
 					},
 					"world": {
 						"x": 220,
-						"y": 2360,
+						"y": 2960,
 						"width": 585,
 						"height": 100,
 						"originX": 0,
@@ -625,13 +625,13 @@
 					"behaviors": {
 						"Pin": {
 							"properties": {
-								"destroy": false
+								"destroy": true
 							}
 						}
 					},
 					"world": {
 						"x": 940,
-						"y": 2130,
+						"y": 2730,
 						"width": 74,
 						"height": 100,
 						"originX": 0,
@@ -658,13 +658,13 @@
 					"behaviors": {
 						"Pin": {
 							"properties": {
-								"destroy": false
+								"destroy": true
 							}
 						}
 					},
 					"world": {
 						"x": 820,
-						"y": 2380,
+						"y": 2980,
 						"width": 63,
 						"height": 63,
 						"originX": 0,
@@ -709,52 +709,17 @@
 					"behaviors": {
 						"Pin": {
 							"properties": {
-								"destroy": false
+								"destroy": true
 							}
 						}
 					},
 					"world": {
 						"x": 900,
-						"y": 2380,
+						"y": 2980,
 						"width": 101,
 						"height": 71,
 						"originX": 0,
 						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "task_container",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 39,
-					"instanceVariables": {},
-					"behaviors": {
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-						"x": 540,
-						"y": 2900,
-						"width": 1000,
-						"height": 470,
-						"originX": 0.5,
-						"originY": 0.5,
 						"color": [
 							1,
 							1,

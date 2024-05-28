@@ -148,10 +148,7 @@
 	"autosaveData": null,
 	"containers": [],
 	"families": {
-		"items": [
-			"task_svgs",
-			"task_texts"
-		],
+		"items": [],
 		"subfolders": []
 	},
 	"layouts": {

@@ -12,6 +12,16 @@
 			"sid": 174117757074894
 		},
 		{
+			"eventType": "variable",
+			"name": "taskDist",
+			"type": "number",
+			"initialValue": "600",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": true,
+			"sid": 128526156871852
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -380,7 +390,7 @@
 				{
 					"id": "compare-y",
 					"objectClass": "TiledBackground2",
-					"sid": 221673741900185,
+					"sid": 855982438343012,
 					"parameters": {
 						"comparison": 3,
 						"y-co-ordinate": "-1920"
@@ -391,7 +401,7 @@
 				{
 					"id": "set-y",
 					"objectClass": "TiledBackground2",
-					"sid": 743053255948367,
+					"sid": 239429720609257,
 					"parameters": {
 						"y": "-1920"
 					}
@@ -413,12 +423,12 @@
 				{
 					"id": "create-object",
 					"objectClass": "System",
-					"sid": 671301273588448,
+					"sid": 552655652897947,
 					"parameters": {
 						"object-to-create": "task_container",
 						"layer": "3",
-						"x": "560",
-						"y": "2070",
+						"x": "540",
+						"y": "2300 + (taskDist*numTasks)",
 						"create-hierarchy": false,
 						"template-name": "\"\""
 					}
@@ -426,12 +436,12 @@
 				{
 					"id": "create-object",
 					"objectClass": "System",
-					"sid": 810219577108178,
+					"sid": 866480612713298,
 					"parameters": {
-						"object-to-create": "task_texts",
+						"object-to-create": "task_text",
 						"layer": "3",
-						"x": "280",
-						"y": "1890",
+						"x": "90",
+						"y": "2100 + taskDist*numTasks",
 						"create-hierarchy": false,
 						"template-name": "\"\""
 					}
@@ -439,20 +449,59 @@
 				{
 					"id": "create-object",
 					"objectClass": "System",
-					"sid": 155420434789739,
+					"sid": 124510693478335,
 					"parameters": {
-						"object-to-create": "task_svgs",
+						"object-to-create": "reward_text",
 						"layer": "3",
-						"x": "360",
-						"y": "2070",
+						"x": "900",
+						"y": "2380 + taskDist*numTasks",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 462519529358188,
+					"parameters": {
+						"object-to-create": "incomplete_icon",
+						"layer": "3",
+						"x": "220",
+						"y": "2360 + taskDist*numTasks",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 285955140532360,
+					"parameters": {
+						"object-to-create": "star_icon",
+						"layer": "3",
+						"x": "940",
+						"y": "2130 + taskDist*numTasks",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 965325032900524,
+					"parameters": {
+						"object-to-create": "reward_icon",
+						"layer": "3",
+						"x": "820",
+						"y": "2380 + taskDist*numTasks",
 						"create-hierarchy": false,
 						"template-name": "\"\""
 					}
 				},
 				{
 					"id": "pin-to-object-properties",
-					"objectClass": "task_svgs",
-					"sid": 895696946120012,
+					"objectClass": "task_text",
+					"sid": 137385097559827,
 					"behaviorType": "Pin",
 					"parameters": {
 						"pin-to": "task_container",
@@ -466,8 +515,53 @@
 				},
 				{
 					"id": "pin-to-object-properties",
-					"objectClass": "task_texts",
-					"sid": 934901293397451,
+					"objectClass": "star_icon",
+					"sid": 799894669156876,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "task_container",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "reward_icon",
+					"sid": 587318261858197,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "task_container",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "reward_text",
+					"sid": 349892121345115,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "task_container",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "incomplete_icon",
+					"sid": 405729999422731,
 					"behaviorType": "Pin",
 					"parameters": {
 						"pin-to": "task_container",
@@ -482,7 +576,7 @@
 				{
 					"id": "pin-to-object-properties",
 					"objectClass": "task_container",
-					"sid": 226545760372885,
+					"sid": 669759545093770,
 					"behaviorType": "Pin",
 					"parameters": {
 						"pin-to": "TiledBackground2",
@@ -496,6 +590,54 @@
 				}
 			],
 			"sid": 706238241639500
+		},
+		{
+			"functionName": "deleteTask",
+			"functionDescription": "Removes a task objet from the screen",
+			"functionCategory": "",
+			"functionReturnType": "none",
+			"functionCopyPicked": false,
+			"functionIsAsync": false,
+			"functionParameters": [],
+			"eventType": "function-block",
+			"conditions": [],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "task_container",
+					"sid": 207886174430304
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 386189593054810,
+					"parameters": {
+						"variable": "numTasks",
+						"value": "-1"
+					}
+				}
+			],
+			"sid": 622681898913920
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "tap",
+					"sid": 105522191501489,
+					"parameters": {
+						"object": "bear_full"
+					}
+				}
+			],
+			"actions": [
+				{
+					"callFunction": "createTask",
+					"sid": 693386937679764
+				}
+			],
+			"sid": 799636374611509
 		}
 	],
 	"sid": 404955803107330
