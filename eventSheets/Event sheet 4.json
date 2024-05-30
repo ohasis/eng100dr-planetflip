@@ -90,7 +90,7 @@
 					"sid": 205767787617901,
 					"behaviorType": "Pin",
 					"parameters": {
-						"pin-to": "TiledBackground2",
+						"pin-to": "home_bg_2",
 						"x": true,
 						"y": true,
 						"angle": true,
@@ -105,7 +105,7 @@
 					"sid": 553270986940319,
 					"behaviorType": "Pin",
 					"parameters": {
-						"pin-to": "TiledBackground2",
+						"pin-to": "home_bg_2",
 						"x": true,
 						"y": true,
 						"angle": true,
@@ -120,7 +120,7 @@
 					"sid": 829591697564709,
 					"behaviorType": "Pin",
 					"parameters": {
-						"pin-to": "TiledBackground2",
+						"pin-to": "home_bg_2",
 						"x": true,
 						"y": true,
 						"angle": true,
@@ -135,7 +135,7 @@
 					"sid": 886562826387626,
 					"behaviorType": "Pin",
 					"parameters": {
-						"pin-to": "TiledBackground2",
+						"pin-to": "home_bg_2",
 						"x": true,
 						"y": true,
 						"angle": true,
@@ -146,11 +146,11 @@
 				},
 				{
 					"id": "pin-to-object-properties",
-					"objectClass": "TiledBackground",
+					"objectClass": "home_bg",
 					"sid": 664452267183002,
 					"behaviorType": "Pin",
 					"parameters": {
-						"pin-to": "TiledBackground2",
+						"pin-to": "home_bg_2",
 						"x": true,
 						"y": true,
 						"angle": true,
@@ -364,7 +364,7 @@
 			"conditions": [
 				{
 					"id": "compare-y",
-					"objectClass": "TiledBackground2",
+					"objectClass": "home_bg_2",
 					"sid": 899383307304070,
 					"parameters": {
 						"comparison": 5,
@@ -375,7 +375,7 @@
 			"actions": [
 				{
 					"id": "set-y",
-					"objectClass": "TiledBackground2",
+					"objectClass": "home_bg_2",
 					"sid": 499268420538722,
 					"parameters": {
 						"y": "0"
@@ -389,7 +389,7 @@
 			"conditions": [
 				{
 					"id": "compare-y",
-					"objectClass": "TiledBackground2",
+					"objectClass": "home_bg_2",
 					"sid": 855982438343012,
 					"parameters": {
 						"comparison": 3,
@@ -400,7 +400,7 @@
 			"actions": [
 				{
 					"id": "set-y",
-					"objectClass": "TiledBackground2",
+					"objectClass": "home_bg_2",
 					"sid": 239429720609257,
 					"parameters": {
 						"y": "-1920"
@@ -423,12 +423,12 @@
 				{
 					"id": "create-object",
 					"objectClass": "System",
-					"sid": 552655652897947,
+					"sid": 724294819058427,
 					"parameters": {
 						"object-to-create": "task_container",
 						"layer": "3",
 						"x": "540",
-						"y": "2300 + (taskDist*numTasks)",
+						"y": "2300 - LayerScrollY(1) + (taskDist*numTasks)",
 						"create-hierarchy": false,
 						"template-name": "\"\""
 					}
@@ -449,12 +449,12 @@
 				{
 					"id": "create-object",
 					"objectClass": "System",
-					"sid": 124510693478335,
+					"sid": 250312779776905,
 					"parameters": {
 						"object-to-create": "reward_text",
 						"layer": "3",
 						"x": "900",
-						"y": "2380 + taskDist*numTasks",
+						"y": "2380 - LayerScrollY(1) + taskDist*numTasks",
 						"create-hierarchy": false,
 						"template-name": "\"\""
 					}
@@ -579,13 +579,30 @@
 					"sid": 669759545093770,
 					"behaviorType": "Pin",
 					"parameters": {
-						"pin-to": "TiledBackground2",
+						"pin-to": "home_bg_2",
 						"x": true,
 						"y": true,
 						"angle": true,
 						"width-type": "no",
 						"height-type": "no",
 						"z": false
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 430995391264891,
+					"parameters": {
+						"variable": "numTasks",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "reward_text",
+					"sid": 914739068081062,
+					"parameters": {
+						"text": "ViewportBottom(1)"
 					}
 				}
 			],
@@ -638,6 +655,21 @@
 				}
 			],
 			"sid": 799636374611509
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "tap",
+					"sid": 368856843779900,
+					"parameters": {
+						"object": "incomplete_icon"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 256393858994570
 		}
 	],
 	"sid": 404955803107330

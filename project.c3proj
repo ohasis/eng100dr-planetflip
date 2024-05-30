@@ -85,6 +85,13 @@
 		},
 		{
 			"type": "plugin",
+			"id": "filechooser",
+			"name": "File chooser",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "progressbar",
 			"name": "Progress bar",
 			"author": "Scirra",
@@ -122,8 +129,8 @@
 			"pb_name_input",
 			"meet_button_obj",
 			"pb_name_text",
-			"TiledBackground",
-			"TiledBackground2",
+			"home_bg",
+			"home_bg_2",
 			"menu_icon",
 			"health_icon",
 			"menu_bar",
@@ -141,7 +148,12 @@
 			"incomplete_icon",
 			"star_icon",
 			"reward_icon",
-			"reward_text"
+			"reward_text",
+			"FileChooser",
+			"msgBackground",
+			"Sprite",
+			"SVGPicture",
+			"SVGPicture2"
 		],
 		"subfolders": []
 	},
@@ -338,6 +350,22 @@
 					"name": "reward_icon.svg",
 					"type": "image/svg+xml",
 					"sid": 542209525035502,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "msg_done_button.svg",
+					"type": "image/svg+xml",
+					"sid": 237243235372155,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "pb_request_msg.svg",
+					"type": "image/svg+xml",
+					"sid": 106842726143689,
 					"file-info": {
 						"purpose": "none"
 					}
