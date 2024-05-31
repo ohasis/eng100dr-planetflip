@@ -287,179 +287,6 @@
 						"angle": 0,
 						"zElevation": 0
 					}
-				}
-			],
-			"sid": 956950248381036,
-			"effectTypes": [],
-			"isInitiallyVisible": true,
-			"isInitiallyInteractive": true,
-			"isHTMLElementsLayer": false,
-			"color": [
-				1,
-				1,
-				1,
-				1
-			],
-			"backgroundColor": [
-				0.3686274509803922,
-				0.3686274509803922,
-				0.3686274509803922,
-				1
-			],
-			"isTransparent": true,
-			"parallaxX": 1,
-			"parallaxY": 1,
-			"scaleRate": 1,
-			"forceOwnTexture": false,
-			"renderingMode": "3d",
-			"drawOrder": "z-order",
-			"useRenderCells": false,
-			"blendMode": "normal",
-			"zElevation": 0,
-			"global": false
-		},
-		{
-			"name": "Layer 4",
-			"overriden": 0,
-			"subLayers": [],
-			"instances": [
-				{
-					"type": "menu_past_tasks_area",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 28,
-					"instanceVariables": {},
-					"behaviors": {
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-						"x": -437.54589450653816,
-						"y": 501.0869494411565,
-						"width": 872,
-						"height": 163,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "menu_profile_area",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 27,
-					"instanceVariables": {},
-					"behaviors": {
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-						"x": -438,
-						"y": 315,
-						"width": 870,
-						"height": 167,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "menu_home_area",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 25,
-					"instanceVariables": {},
-					"behaviors": {
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-						"x": -436.81207447253615,
-						"y": 140,
-						"width": 871.0379787619796,
-						"height": 151,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "menu_bar",
-					"properties": {
-						"svg-file": 468085233296692,
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 24,
-					"instanceVariables": {},
-					"behaviors": {
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-						"x": -873.468568070855,
-						"y": 0.1500983360006103,
-						"width": 873,
-						"height": 1921,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
 				},
 				{
 					"type": "task_container",
@@ -696,6 +523,179 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				}
+			],
+			"sid": 956950248381036,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"isHTMLElementsLayer": false,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		},
+		{
+			"name": "Layer 4",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
+				{
+					"type": "menu_past_tasks_area",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 28,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": -437.54589450653816,
+						"y": 501.0869494411565,
+						"width": 872,
+						"height": 163,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "menu_profile_area",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 27,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": -438,
+						"y": 315,
+						"width": 870,
+						"height": 167,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "menu_home_area",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 25,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": -436.81207447253615,
+						"y": 140,
+						"width": 871.0379787619796,
+						"height": 151,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "menu_bar",
+					"properties": {
+						"svg-file": 468085233296692,
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 24,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": -873.468568070855,
+						"y": 0.1500983360006103,
+						"width": 873,
+						"height": 1921,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				},
 				{
 					"type": "task_container",
@@ -780,8 +780,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1628,
-						"y": 833,
+						"x": 1598,
+						"y": 812,
 						"width": 960,
 						"height": 1560,
 						"originX": 0.5,
@@ -797,7 +797,7 @@
 					}
 				},
 				{
-					"type": "Sprite",
+					"type": "msg_border",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -809,8 +809,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1625,
-						"y": 354,
+						"x": 1579,
+						"y": 373,
 						"width": 960,
 						"height": 250,
 						"originX": 0.5,
@@ -838,8 +838,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1609,
-						"y": 199,
+						"x": 1550,
+						"y": 205,
 						"width": 281,
 						"height": 237,
 						"originX": 0.5,
@@ -855,7 +855,7 @@
 					}
 				},
 				{
-					"type": "SVGPicture",
+					"type": "msg_done_button",
 					"properties": {
 						"svg-file": 237243235372155,
 						"initially-visible": true,
@@ -865,8 +865,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1827,
-						"y": 168,
+						"x": 1792,
+						"y": 142,
 						"width": 226,
 						"height": 177,
 						"originX": 0,
@@ -882,7 +882,7 @@
 					}
 				},
 				{
-					"type": "SVGPicture2",
+					"type": "pb_task_msg_general",
 					"properties": {
 						"svg-file": 106842726143689,
 						"initially-visible": true,
@@ -892,8 +892,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1181,
-						"y": 400,
+						"x": 1174,
+						"y": 419,
 						"width": 351,
 						"height": 338,
 						"originX": 0,
@@ -906,6 +906,33 @@
 						],
 						"angle": 0,
 						"zElevation": 0
+					}
+				},
+				{
+					"type": "FileChooser",
+					"properties": {
+						"accept": "",
+						"select": "single",
+						"initially-visible": true,
+						"id": "",
+						"class": ""
+					},
+					"uid": 30,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1217,
+						"y": 1382,
+						"width": 758,
+						"height": 146,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
 					}
 				}
 			],

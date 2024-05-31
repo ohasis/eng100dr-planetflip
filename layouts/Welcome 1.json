@@ -293,12 +293,6 @@
 	"sid": 685790813902590,
 	"nonworld-instances": [
 		{
-			"type": "Dictionary",
-			"properties": {},
-			"uid": 30,
-			"instanceVariables": {}
-		},
-		{
 			"type": "task_arr",
 			"properties": {
 				"width": 10,

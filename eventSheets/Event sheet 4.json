@@ -304,9 +304,9 @@
 						{
 							"id": "set-x",
 							"objectClass": "menu_bar",
-							"sid": 255312497162424,
+							"sid": 396165796855484,
 							"parameters": {
-								"x": "Self.X - 14"
+								"x": "Self.X - 17"
 							}
 						}
 					],
@@ -343,9 +343,9 @@
 						{
 							"id": "set-x",
 							"objectClass": "menu_bar",
-							"sid": 447839847067549,
+							"sid": 553030177803220,
 							"parameters": {
-								"x": "Self.X+14"
+								"x": "Self.X+17"
 							}
 						}
 					],
@@ -668,8 +668,154 @@
 					}
 				}
 			],
-			"actions": [],
+			"actions": [
+				{
+					"id": "set-layer-interactive",
+					"objectClass": "System",
+					"sid": 554897555175355,
+					"parameters": {
+						"layer": "1",
+						"interactive": false
+					}
+				},
+				{
+					"id": "set-layer-interactive",
+					"objectClass": "System",
+					"sid": 755637309435276,
+					"parameters": {
+						"layer": "2",
+						"interactive": false
+					}
+				},
+				{
+					"id": "set-layer-interactive",
+					"objectClass": "System",
+					"sid": 514869670312526,
+					"parameters": {
+						"layer": "3",
+						"interactive": false
+					}
+				},
+				{
+					"id": "set-layer-interactive",
+					"objectClass": "System",
+					"sid": 773655226856454,
+					"parameters": {
+						"layer": "4",
+						"interactive": false
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 885927821163095,
+					"parameters": {
+						"object-to-create": "msgBackground",
+						"layer": "5",
+						"x": "540",
+						"y": "960",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 245161386655750,
+					"parameters": {
+						"object-to-create": "msg_border",
+						"layer": "5",
+						"x": "540",
+						"y": "470",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 584971025812044,
+					"parameters": {
+						"object-to-create": "bear_head",
+						"layer": "5",
+						"x": "540",
+						"y": "310",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 527611426500798,
+					"parameters": {
+						"object-to-create": "msg_done_button",
+						"layer": "5",
+						"x": "740",
+						"y": "270",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 311842273184207,
+					"parameters": {
+						"object-to-create": "pb_task_msg_general",
+						"layer": "5",
+						"x": "90",
+						"y": "510",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 698525441959901,
+					"parameters": {
+						"object-to-create": "FileChooser",
+						"layer": "5",
+						"x": "170",
+						"y": "1510",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
+				}
+			],
 			"sid": 256393858994570
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "tap",
+					"sid": 273366822528536,
+					"parameters": {
+						"object": "msg_done_button"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "msg_border",
+					"sid": 659412010291787
+				},
+				{
+					"id": "destroy",
+					"objectClass": "msg_done_button",
+					"sid": 673021600725774
+				},
+				{
+					"id": "destroy",
+					"objectClass": "msgBackground",
+					"sid": 453115229747876
+				}
+			],
+			"sid": 748400823670827
 		}
 	],
 	"sid": 404955803107330
