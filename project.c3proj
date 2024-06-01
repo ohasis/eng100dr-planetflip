@@ -160,7 +160,8 @@
 			"Welcome 1",
 			"Welcome 2",
 			"Welcome 3",
-			"Home Screen 1"
+			"Home Screen 1",
+			"Message Screen"
 		],
 		"subfolders": []
 	},
@@ -169,7 +170,8 @@
 			"Event sheet 1",
 			"Event sheet 2",
 			"Event sheet 3",
-			"Event sheet 4"
+			"Event sheet 4",
+			"Event sheet 5"
 		],
 		"subfolders": []
 	},

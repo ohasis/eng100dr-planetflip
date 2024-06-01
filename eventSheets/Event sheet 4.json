@@ -241,18 +241,9 @@
 			],
 			"actions": [
 				{
-					"id": "set-layer-interactive",
-					"objectClass": "System",
-					"sid": 354755045337664,
-					"parameters": {
-						"layer": "1",
-						"interactive": true
-					}
-				},
-				{
 					"id": "set-instvar-value",
 					"objectClass": "menu_icon",
-					"sid": 200895487553784,
+					"sid": 395507023782906,
 					"parameters": {
 						"instance-variable": "Open",
 						"value": "0"
@@ -261,14 +252,29 @@
 				{
 					"id": "set-layer-interactive",
 					"objectClass": "System",
-					"sid": 822456250240124,
+					"sid": 264820389696334,
 					"parameters": {
 						"layer": "3",
 						"interactive": true
 					}
+				},
+				{
+					"id": "set-layer-interactive",
+					"objectClass": "System",
+					"sid": 354755045337664,
+					"parameters": {
+						"layer": "1",
+						"interactive": true
+					}
 				}
 			],
-			"sid": 735275388552714
+			"sid": 735275388552714,
+			"children": [
+				{
+					"eventType": "comment",
+					"text": "menu animation"
+				}
+			]
 		},
 		{
 			"eventType": "block",
@@ -304,9 +310,9 @@
 						{
 							"id": "set-x",
 							"objectClass": "menu_bar",
-							"sid": 396165796855484,
+							"sid": 310489117973750,
 							"parameters": {
-								"x": "Self.X - 17"
+								"x": "Self.X - 14"
 							}
 						}
 					],
@@ -343,9 +349,9 @@
 						{
 							"id": "set-x",
 							"objectClass": "menu_bar",
-							"sid": 553030177803220,
+							"sid": 338358732377327,
 							"parameters": {
-								"x": "Self.X+17"
+								"x": "Self.X+14"
 							}
 						}
 					],
@@ -354,10 +360,8 @@
 			]
 		},
 		{
-			"eventType": "block",
-			"conditions": [],
-			"actions": [],
-			"sid": 686666393329107
+			"eventType": "comment",
+			"text": "prevent scorlling from passing bottom or top of screen"
 		},
 		{
 			"eventType": "block",
@@ -670,42 +674,6 @@
 			],
 			"actions": [
 				{
-					"id": "set-layer-interactive",
-					"objectClass": "System",
-					"sid": 554897555175355,
-					"parameters": {
-						"layer": "1",
-						"interactive": false
-					}
-				},
-				{
-					"id": "set-layer-interactive",
-					"objectClass": "System",
-					"sid": 755637309435276,
-					"parameters": {
-						"layer": "2",
-						"interactive": false
-					}
-				},
-				{
-					"id": "set-layer-interactive",
-					"objectClass": "System",
-					"sid": 514869670312526,
-					"parameters": {
-						"layer": "3",
-						"interactive": false
-					}
-				},
-				{
-					"id": "set-layer-interactive",
-					"objectClass": "System",
-					"sid": 773655226856454,
-					"parameters": {
-						"layer": "4",
-						"interactive": false
-					}
-				},
-				{
 					"id": "create-object",
 					"objectClass": "System",
 					"sid": 885927821163095,
@@ -742,6 +710,22 @@
 						"y": "310",
 						"create-hierarchy": false,
 						"template-name": "\"\""
+					}
+				},
+				{
+					"id": "set-height",
+					"objectClass": "bear_head",
+					"sid": 955209530451944,
+					"parameters": {
+						"height": "235"
+					}
+				},
+				{
+					"id": "set-width",
+					"objectClass": "bear_head",
+					"sid": 914765293361143,
+					"parameters": {
+						"width": "280"
 					}
 				},
 				{
@@ -782,9 +766,55 @@
 						"create-hierarchy": false,
 						"template-name": "\"\""
 					}
+				},
+				{
+					"id": "set-layer-interactive",
+					"objectClass": "System",
+					"sid": 346524764622895,
+					"parameters": {
+						"layer": "1",
+						"interactive": false
+					}
+				},
+				{
+					"id": "set-layer-interactive",
+					"objectClass": "System",
+					"sid": 811652601639079,
+					"parameters": {
+						"layer": "2",
+						"interactive": false
+					}
+				},
+				{
+					"id": "set-layer-interactive",
+					"objectClass": "System",
+					"sid": 458219266274007,
+					"parameters": {
+						"layer": "3",
+						"interactive": false
+					}
+				},
+				{
+					"id": "set-layer-interactive",
+					"objectClass": "System",
+					"sid": 521875245811974,
+					"parameters": {
+						"layer": "4",
+						"interactive": false
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "home_bg_2",
+					"sid": 382319608113066,
+					"behaviorType": "DragDrop",
+					"parameters": {
+						"state": "disabled"
+					}
 				}
 			],
-			"sid": 256393858994570
+			"sid": 256393858994570,
+			"disabled": true
 		},
 		{
 			"eventType": "block",
@@ -806,16 +836,77 @@
 				},
 				{
 					"id": "destroy",
-					"objectClass": "msg_done_button",
-					"sid": 673021600725774
+					"objectClass": "msgBackground",
+					"sid": 453115229747876
 				},
 				{
 					"id": "destroy",
-					"objectClass": "msgBackground",
-					"sid": 453115229747876
+					"objectClass": "bear_head",
+					"sid": 578061847459063
+				},
+				{
+					"id": "destroy",
+					"objectClass": "FileChooser",
+					"sid": 984202412206229
+				},
+				{
+					"id": "destroy",
+					"objectClass": "pb_task_msg_general",
+					"sid": 159498993639470
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "home_bg_2",
+					"sid": 709597503110771,
+					"behaviorType": "DragDrop",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "set-layer-interactive",
+					"objectClass": "System",
+					"sid": 728012151814682,
+					"parameters": {
+						"layer": "1",
+						"interactive": true
+					}
+				},
+				{
+					"id": "set-layer-interactive",
+					"objectClass": "System",
+					"sid": 303005697785518,
+					"parameters": {
+						"layer": "2",
+						"interactive": true
+					}
+				},
+				{
+					"id": "set-layer-interactive",
+					"objectClass": "System",
+					"sid": 871896824648432,
+					"parameters": {
+						"layer": "3",
+						"interactive": true
+					}
+				},
+				{
+					"id": "set-layer-interactive",
+					"objectClass": "System",
+					"sid": 738659396429518,
+					"parameters": {
+						"layer": "4",
+						"interactive": true
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "msg_done_button",
+					"sid": 301832781020224
 				}
 			],
-			"sid": 748400823670827
+			"sid": 748400823670827,
+			"disabled": true
 		}
 	],
 	"sid": 404955803107330
